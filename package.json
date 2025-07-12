@@ -2,7 +2,7 @@
   "name": "spotify-json-api",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port 8080",
+    "start": "node node_modules/json-server/bin/index.js --watch db.json --port 8080",
     "build": "echo 'no build step'"
   },
   "dependencies": {
