@@ -1,0 +1,11 @@
+{
+  "name": "spotify-json-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --watch db.json --port 8080",
+    "build": "echo 'no build step'"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
